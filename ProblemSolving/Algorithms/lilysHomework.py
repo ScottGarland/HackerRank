@@ -9,7 +9,7 @@ def swap_count(arr, ascend = True, descend = False):
     :rtype: int
     """
     
-    arr = arr[:]
+    arr = arr[:] # this array is copied so modifications can be done. Without this, it doesn't work
     ascend = ascend # boolean value to determine to do the algo in ascending sort order
     descend = descend # same as above but descending sort order
     reverse = None # direction for sorted() function
