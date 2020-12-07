@@ -1,12 +1,3 @@
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-# Complete the staircase function below.
 def staircase(n):
     step = []
     index = n
@@ -18,8 +9,3 @@ def staircase(n):
         step[i] = '#'
         index -= index
         print(''.join(list(reversed(step))))
-
-if __name__ == '__main__':
-    n = int(input())
-
-    staircase(n)
