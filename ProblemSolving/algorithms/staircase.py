@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/staircase/problem
+
 def staircase(n):
     step = []
     index = n

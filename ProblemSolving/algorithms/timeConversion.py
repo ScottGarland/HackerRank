@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/time-conversion/problem
+
 def timeConversion(s):
     hh = s[0:2]
     XM = s[-2] + s[-1]

@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/lilys-homework/problem
+
 def swap_count(arr, ascend = True, descend = False):
     """
     The function counts the minimum number of swaps needed.

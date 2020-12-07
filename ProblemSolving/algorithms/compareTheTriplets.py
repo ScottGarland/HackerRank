@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/compare-the-triplets/problem
+
 def compareTriplets(a, b):
     a_count = 0
     b_count = 0

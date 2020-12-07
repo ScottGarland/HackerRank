@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/diagonal-difference/problem
+
 def diagonalDifference(arr):
     diag1 = 0
     diag2 = 0
